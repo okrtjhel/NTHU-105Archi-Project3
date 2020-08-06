@@ -1,0 +1,40 @@
+1, lw   : Disk  ;  Disk 
+2, addi : ITLB  ; 
+3, slt  : Disk  ; 
+4, bne  : ITLB  ; 
+5, lw   : Disk  ;  Disk 
+6, lw   : ITLB  ;  DTLB 
+7, addi : Disk  ; 
+8, slt  : ITLB  ; 
+9, bne  : Disk  ; 
+10, add  : ITLB  ; 
+11, or   : Disk  ; 
+12, or   : ITLB  ; 
+13, addi : Disk  ; 
+14, j    : ITLB  ; 
+15, slt  : ITLB  ; 
+16, bne  : ITLB  ; 
+17, add  : ITLB  ; 
+18, or   : ITLB  ; 
+19, or   : ITLB  ; 
+20, addi : ITLB  ; 
+21, j    : ITLB  ; 
+22, slt  : ITLB  ; 
+23, bne  : ITLB  ; 
+24, add  : ITLB  ; 
+25, or   : ITLB  ; 
+26, or   : ITLB  ; 
+27, addi : ITLB  ; 
+28, j    : ITLB  ; 
+29, slt  : ITLB  ; 
+30, bne  : ITLB  ; 
+31, add  : ITLB  ; 
+32, or   : ITLB  ; 
+33, or   : ITLB  ; 
+34, addi : ITLB  ; 
+35, j    : ITLB  ; 
+36, slt  : ITLB  ; 
+37, bne  : ITLB  ; 
+38, sw   : Disk  ;  DTLB 
+39, lh   : ITLB  ;  DTLB  DCache 
+40, halt : Disk  ; 

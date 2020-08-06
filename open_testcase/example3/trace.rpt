@@ -1,0 +1,111 @@
+1, lw   : Disk  ;  Disk 
+2, addi : ITLB  ; 
+3, addi : Disk  ; 
+4, add  : ITLB  ; 
+5, add  : Disk  ; 
+6, beq  : ITLB  ; 
+7, add  : Disk  ; 
+8, lw   : ITLB  ;  DTLB 
+9, lw   : Disk  ;  DTLB 
+10, sw   : ITLB  ;  DTLB  DCache 
+11, sw   : Disk  ;  DTLB  DCache 
+12, add  : ITLB  ; 
+13, add  : Disk  ; 
+14, sub  : ITLB  ; 
+15, j    : Disk  ; 
+16, beq  : ITLB  ; 
+17, add  : ITLB  ; 
+18, lw   : ITLB  ;  DTLB 
+19, lw   : ITLB  ;  Disk 
+20, sw   : ITLB  ;  DTLB  DCache 
+21, sw   : ITLB  ;  DTLB  DCache 
+22, add  : ITLB  ; 
+23, add  : ITLB  ; 
+24, sub  : ITLB  ; 
+25, j    : ITLB  ; 
+26, beq  : ITLB  ; 
+27, add  : ITLB  ; 
+28, lw   : ITLB  ;  DTLB 
+29, lw   : ITLB  ;  DTLB 
+30, sw   : ITLB  ;  DTLB  DCache 
+31, sw   : ITLB  ;  DTLB  DCache 
+32, add  : ITLB  ; 
+33, add  : ITLB  ; 
+34, sub  : ITLB  ; 
+35, j    : ITLB  ; 
+36, beq  : ITLB  ; 
+37, add  : ITLB  ; 
+38, lw   : ITLB  ;  DTLB 
+39, lw   : ITLB  ;  Disk 
+40, sw   : ITLB  ;  DTLB  DCache 
+41, sw   : ITLB  ;  DTLB  DCache 
+42, add  : ITLB  ; 
+43, add  : ITLB  ; 
+44, sub  : ITLB  ; 
+45, j    : ITLB  ; 
+46, beq  : ITLB  ; 
+47, add  : ITLB  ; 
+48, lw   : ITLB  ;  DTLB 
+49, lw   : ITLB  ;  DTLB 
+50, sw   : ITLB  ;  DTLB  DCache 
+51, sw   : ITLB  ;  DTLB  DCache 
+52, add  : ITLB  ; 
+53, add  : ITLB  ; 
+54, sub  : ITLB  ; 
+55, j    : ITLB  ; 
+56, beq  : ITLB  ; 
+57, lw   : ITLB  ;  Disk 
+58, add  : Disk  ; 
+59, add  : ITLB  ; 
+60, beq  : Disk  ; 
+61, lw   : ITLB  ;  DTLB 
+62, add  : Disk  ; 
+63, sub  : ITLB  ; 
+64, j    : Disk  ; 
+65, beq  : ITLB  ; 
+66, lw   : ITLB  ICache  ;  DTLB 
+67, add  : ITLB  ; 
+68, sub  : ITLB  ; 
+69, j    : ITLB  ICache  ; 
+70, beq  : ITLB  ; 
+71, lw   : ITLB  ;  DTLB 
+72, add  : ITLB  ICache  ; 
+73, sub  : ITLB  ; 
+74, j    : ITLB  ; 
+75, beq  : ITLB  ICache  ; 
+76, lw   : ITLB  ;  Disk 
+77, add  : ITLB  ; 
+78, sub  : ITLB  ICache  ; 
+79, j    : ITLB  ; 
+80, beq  : ITLB  ; 
+81, lw   : ITLB  ICache  ;  DTLB 
+82, add  : ITLB  ; 
+83, sub  : ITLB  ; 
+84, j    : ITLB  ICache  ; 
+85, beq  : ITLB  ; 
+86, lw   : ITLB  ;  DTLB 
+87, add  : ITLB  ICache  ; 
+88, sub  : ITLB  ; 
+89, j    : ITLB  ; 
+90, beq  : ITLB  ICache  ; 
+91, lw   : ITLB  ;  DTLB 
+92, add  : ITLB  ; 
+93, sub  : ITLB  ICache  ; 
+94, j    : ITLB  ; 
+95, beq  : ITLB  ; 
+96, lw   : ITLB  ICache  ;  Disk 
+97, add  : ITLB  ; 
+98, sub  : ITLB  ; 
+99, j    : ITLB  ICache  ; 
+100, beq  : ITLB  ; 
+101, lw   : ITLB  ;  DTLB 
+102, add  : ITLB  ICache  ; 
+103, sub  : ITLB  ; 
+104, j    : ITLB  ; 
+105, beq  : ITLB  ICache  ; 
+106, lw   : ITLB  ;  DTLB 
+107, add  : ITLB  ; 
+108, sub  : ITLB  ICache  ; 
+109, j    : ITLB  ; 
+110, beq  : ITLB  ; 
+111, halt : ITLB  ; 
